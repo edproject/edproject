@@ -15,5 +15,6 @@
 		<tiles:insertAttribute name="content"/>
 		<script src="<c:url value='/resources/js/jquery-1.10.1.min.js' />"></script>
 		<script src="<c:url value='/resources/js/bootstrap.min.js' />"></script>
+		<tiles:insertAttribute name="commonFooterScripts" ignore="true" />
 	</body>
 </html>  
