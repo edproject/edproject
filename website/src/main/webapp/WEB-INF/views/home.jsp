@@ -12,16 +12,16 @@
           <div class="nav-collapse collapse pull-right">
             <ul class="nav">
               <li>
-                <a href="./getting-started.html">Features</a>
+                <a href="<c:url value='/features' />">Features</a>
               </li>
               <li>
-                <a href="./scaffolding.html">About Us</a>
+                <a href="<c:url value='/about-us' />">About Us</a>
               </li>
               <li>
-                <a href="./customize.html">Blog</a>
+                <a href="<c:url value='/blog' />">Blog</a>
               </li>
             </ul>
-            <a class='btn btn-primary pull-right'>Sign in</a>
+            <a href="<c:url value='/sign-in' />" class='btn btn-primary pull-right'>Sign in</a>
           </div>
         </div>
       </div>
