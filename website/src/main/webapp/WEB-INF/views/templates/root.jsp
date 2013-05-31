@@ -4,6 +4,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>
+		<link rel="shortcut icon" href="<c:url value='/resources/img/favicon.ico' />" type="image/x-icon">
+		<link rel="icon" href="<c:url value='/resources/img/favicon.ico' />" type="image/x-icon">
 		<link href="<c:url value='/resources/css/bootstrap.min.css' />" rel="stylesheet" type="text/css" />
 		<link href="<c:url value='/resources/css/bootstrap-responsive.min.css' />" rel="stylesheet" type="text/css" />
 		<link href="<c:url value='/resources/css/application.css' />" rel="stylesheet" type="text/css" />

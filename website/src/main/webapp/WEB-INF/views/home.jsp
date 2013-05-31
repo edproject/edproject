@@ -8,7 +8,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="./index.html">The Ed Project</a>
+          <a class="brand" href="<c:url value='/' />">
+          	<span>The Ed Project</span>
+          </a>
           <div class="nav-collapse collapse pull-right">
             <ul class="nav">
               <li>
@@ -23,6 +25,6 @@
             </ul>
             <a href="<c:url value='/sign-in' />" class='btn btn-primary pull-right'>Sign in</a>
           </div>
-        </div>
-      </div>
-    </div>
+    	</div>
+	</div>
+</div>
