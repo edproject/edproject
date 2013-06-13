@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="root" template="/WEB-INF/views/layouts/root.jsp">
+		<put-attribute name="commonFooterScripts" value="/WEB-INF/views/common/footerScripts.jsp"/>
+	</definition>
+	<definition name="authenticated" template="/WEB-INF/views/layouts/authenticated.jsp">
+		<put-attribute name="commonFooterScripts" value="/WEB-INF/views/common/footerScripts.jsp"/>
+	</definition>
+	<definition name="login" template="/WEB-INF/views/login.jsp" />
+	<definition name="teacher" extends="authenticated">
+		<put-attribute name="content" value="/WEB-INF/views/dashboard/teacher.jsp"/>
+		<!-- <put-attribute name="customFooterScripts" value="/WEB-INF/views/loginScripts.jsp"/> -->
+	</definition>
+	<definition name="404" extends="authenticated">
+		<put-attribute name="content" value="/WEB-INF/views/errors/404.jsp"/>
+		<!-- <put-attribute name="customFooterScripts" value="/WEB-INF/views/loginScripts.jsp"/> -->
+	</definition>
+</tiles-definitions>

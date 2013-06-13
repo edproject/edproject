@@ -1,0 +1,13 @@
+[class^="icon-custom-"],
+[class*=" icon-custom-"] {
+  background-image: url(images/login-sprite.png);
+}
+
+a [class^="icon-custom-"], 
+a [class*=" icon-custom-"], 
+a [class^="icon-custom-"]:before, 
+a [class*=" icon-custom-"]:before {
+	display: inline-block;
+}
+
+.icon-custom-apple { background-position : 0 0; width : 30px; height : 30px;  }

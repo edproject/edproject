@@ -3,8 +3,11 @@
        "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
 <tiles-definitions>
-	<definition name="root" template="/WEB-INF/views/templates/root.jsp" />
+	<definition name="root" template="/WEB-INF/views/templates/root.jsp">
+		<put-attribute name="commonFooterScripts" value="/WEB-INF/views/common/footerScripts.jsp"/>
+	</definition>
 	<definition name="home" extends="root">
 		<put-attribute name="content" value="/WEB-INF/views/home.jsp"/>
+		<put-attribute name="customFooterScripts" value="/WEB-INF/views/homeScripts.jsp"/>
 	</definition>
 </tiles-definitions>

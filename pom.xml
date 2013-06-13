@@ -13,6 +13,7 @@
     <modules>
         <module>dataaccess</module>
         <module>website</module>
+	<module>demo</module>
         <module>webservices</module>
         <module>webserviceclient</module>
     </modules>
